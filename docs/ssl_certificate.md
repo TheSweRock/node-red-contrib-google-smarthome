@@ -14,9 +14,10 @@
    ```bash
    curl https://get.acme.sh | sh -s email=my@example.com
    ```
-   The email address will be used to automatically register your account at the SSL provider. 
-
-2. Install `socat`. This is a dependency of the acme.sh script. On Debian/Ubuntu, it's `apt-get install socat`.
+   The email address will be used to automatically register your account at the SSL provider.
+   Close and reopen your terminal to start using acme.sh
+   
+3. Install `socat`. This is a dependency of the acme.sh script. On Debian/Ubuntu, it's `apt-get install socat`.
 
 4. On your home router, forward port 80 or port 443 to your host.
 
